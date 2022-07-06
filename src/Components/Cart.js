@@ -37,7 +37,7 @@ const Cart = ({cartItem, removeItem, buyNow}) => {
                                 {item.productName}
                             </div>
                             <span>price :- {item.productPrice}</span>
-                            <Button color="danger" onClick={() => removeItem(item)}>Remove</Button>
+                            <Button color="danger" className="m-2" onClick={() => removeItem(item)}>Remove</Button>
                             </Col>
                         </Row>
                     </ListGroupItem>
