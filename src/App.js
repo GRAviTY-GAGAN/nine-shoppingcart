@@ -19,7 +19,7 @@ const isAlreadyAdded = cartItem.findIndex(function(Array){ //Returns the index o
 
 // The findIndex will return any index but not -1 if the item is already in the cart
 
-if(isAlreadyAdded !== -1) {
+if(isAlreadyAdded !== -1) { 
   toast('Already added in cart', {
     type: "error"
 });
