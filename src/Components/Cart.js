@@ -52,7 +52,7 @@ const Cart = ({cartItem, removeItem, buyNow}) => {
                                     Grand Total
                                 </CardHeader>
                                 <CardBody>
-                                    Your amount is for {cartItem.length} product is {amount}
+                                    Your amount is for {cartItem.length} {cartItem.length > 1 ? 'products' : 'product'} is {amount}
                                 </CardBody>
                                 <CardFooter>
                                     <Button color="success" onClick={buyNow}>Pay Here</Button>
